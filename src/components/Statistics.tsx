@@ -1,7 +1,7 @@
 import { formatLapTime, calculateAverageLap, findFastestLap, findSlowestLap } from '../utils/timeFormatter';
 import type { StatisticsProps } from '../types';
 
-export const Statistics = ({ laps, totalTime }: StatisticsProps) => {
+export const Statistics = ({ laps }: StatisticsProps) => {
   if (laps.length === 0) {
     return null;
   }
