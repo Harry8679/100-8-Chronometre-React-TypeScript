@@ -1,5 +1,7 @@
 // Fonctions de formatage du temps
 
+import type { Lap } from "../types";
+
 export const formatTime = (milliseconds: number): string => {
   const totalSeconds = Math.floor(milliseconds / 1000);
   const hours = Math.floor(totalSeconds / 3600);
