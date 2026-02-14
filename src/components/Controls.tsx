@@ -6,7 +6,7 @@ export const Controls = ({
   onStop,
   onReset,
   onLap,
-  hasLaps,
+//   hasLaps,
 }: ControlsProps) => {
   return (
     <div className="grid grid-cols-2 gap-4 mb-6">
